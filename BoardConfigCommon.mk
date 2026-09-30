@@ -130,7 +130,7 @@ ENABLE_VENDOR_RIL_SERVICE := true
 
 # SELinux
 include device/miku/sepolicy/qcom/sepolicy.mk
-include device/qcom/sepolicy_vndr/sm8450/SEPolicy.mk
+include device/motorola/sm7325-common/sepolicy_vndr/sm8450/SEPolicy.mk
 include hardware/motorola/sepolicy/qti/SEPolicy.mk
 BOARD_VENDOR_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/vendor
 
